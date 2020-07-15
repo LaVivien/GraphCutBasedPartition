@@ -32,5 +32,7 @@ The source and sink parameters are of generic type T; these identify the source 
 The return type is a map from nodes (of generic type T) to integers. This map should contain all the nodes of the graph G as keys. The corresponding value for each node is one of three integers:
 
 -1, if the node is an upstream node (on the source side of all min cuts)
+
 1, if the node is a downstream node (on the sink side of all min cuts)
+
 0, if the node is a central node
